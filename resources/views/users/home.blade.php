@@ -4,7 +4,7 @@
   @if(count($users))
   <ul class="list-group">
     @foreach($users as $user)
-      @include('users.single', $user)
+      <li class="list-group-item">{{ $user->email }}</li>
     @endforeach
   </ul>
   @else

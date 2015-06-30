@@ -1,7 +1,5 @@
 <?php
 
-use Cartalyst\Sentinel\Users;
-
 $factory->define(App\User::class, function($faker) {
   return [
     'first_name' => $faker->firstNameMale,
